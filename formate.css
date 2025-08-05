@@ -1,0 +1,46 @@
+/* formate.css */
+
+*         { font-family:      Arial; 
+            font-size:        2vh; 
+          }
+
+a:link    { font-weight:      bold; 
+            color:            black; 
+            text-decoration:  none;
+          }
+
+a:visited { font-weight:      bold; 
+            color:            black; 
+            text-decoration:  none;}
+
+body      { background-color: #eeeeee; 
+            margin:           0px; 
+            padding:          0px;
+          }
+
+table, td, th { empty-cells:      show;
+            padding-right:    8px; 
+            vertical-align:   top;
+            padding-left:     8px;
+          }
+caption   { font-weight:      bold;
+            font-size:        24px;
+          }
+.border   { border-left:      1px solid grey;
+          }
+.frame    { width:            95%;
+            height:           60vh;
+          }
+.scroller { overflow:         scroll; 
+            width:            90%; 
+          }
+.button   { font-size:        50px;
+            font-weight:      bold; 
+            vertical-align:   middle; 
+            text-align:       center;
+            margin:           12px;
+			padding:		  12px;	
+            outline:          3px solid blue; 
+            width:            90%; 
+            height:           100px; 
+          }
